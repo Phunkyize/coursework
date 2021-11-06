@@ -9,7 +9,7 @@ class Dec2Hex {
             try {
                 Arg1 = Integer.parseInt(args[0]);
             } catch (NumberFormatException e) {
-                System.out.print("Provided input is not a number");
+                System.out.println("Provided input is not a number");
                 return;
             }
             ConvertDecimalToHex(Arg1);
