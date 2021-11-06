@@ -18,7 +18,7 @@ public class Dec2HexTest {
         }
 
         //if caught error equals of type ArrayIndexOutOfBoundsException, test passed
-        Assertions.assertTrue(e instanceof ArrayIndexOutOfBoundsException);
+        Assertions.assertFalse(e instanceof ArrayIndexOutOfBoundsException);
     }
 
     //test for non-integer input error caught but not thrown with correct message displayed
