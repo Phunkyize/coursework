@@ -9,6 +9,7 @@ class Dec2Hex {
                 int i = Integer.parseInt(args[0]);
             } catch (NumberFormatException e ){
                 System.out.println("Provided input is not a number");
+                return;
             }
             System.out.println(args.length);
             Arg1 = Integer.parseInt(args[0]);
