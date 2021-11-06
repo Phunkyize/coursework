@@ -39,7 +39,7 @@ public class Dec2HexTest {
         Assertions.assertNull(e);
 
         //assert equals for console output - PASS if console output equals as follows
-        Assertions.assertEquals("Provided input is not a number", newConsole.toString());
+        Assertions.assertEquals(String.format("Provided input is not a number%n"), newConsole.toString());
 
         //assert false for console output - PASS if console output doesn't contain the following message
         //indicates that conversion code will not execute for a non-integer number
